@@ -1,0 +1,128 @@
+/* -----------------------------------------------------------------
+Colour Palette
+rgb(255,250,240)
+rgb(127, 143, 166)
+
+
+ 
+*/
+
+/* Global selectors 
+----------------------------------------------------*/
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 150%;
+    margin: 0;
+  }
+
+  a{
+      color: #EF233c
+  }
+
+  a :hover {
+text-transform: none; 
+  }
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-transform: uppercase;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+
+.content-info a:hover {
+    background: grey;
+    margin: 10px;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 30px;
+    min-height: 150px;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 150px;
+
+}
+
+/* header and footer
+--------------------------------------------------------------------------------------- */
+.about-me{
+    background-color: rgb(127, 143, 166); 
+}
+
+.profile-img{
+    border-radius: 75%;
+}
+
+header {
+    text-align: center;
+}
+
+/* Nav bar
+--------------------------------------------------------------------------------------- */
+
+
+/* education
+----------------------------------------------------------------------------------------- */
+
+.education{
+    background-color: rgba(211, 208, 203, 1);
+    
+}
+
+/* employment 
+-------------------------------------------------------------------------------------------*/
+
+.employment{   
+    background-color: rgba(159, 177, 188, 1);
+}
+
+/* footer and contact */
+
+
+.contact{
+    background-color: rgba(46, 82, 102, 1);
+}
+
+
+/* Education
+ -------------------------------------------------------------------------------------- */
+ 
+
+
+
+ /* Professional Development
+ -------------------------------------------------------------------------------------- */
+
+
+
+
+ /* Employment
+ -------------------------------------------------------------------------------------- */
+ 
+ 
